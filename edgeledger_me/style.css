@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.items .item a:hover{
+    background:  #5BC236
+}
+.container
+{
+    display: flex;
+    background: #333;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.fas
+{
+    display: inline;
+}
+
+
+
+
+#heading
+{
+    margin-left: 30px;
+    color: white;
+}
+.items
+{
+    margin-right: 20px;
+    display: flex;
+    /* width: 100vh; */
+
+}
+.items .item a
+{
+    display: inline-block;
+    padding:10px;
+    margin: 5px 0;
+    border-radius: 7px
+}
+.items .item a p
+{
+    color: white;
+}
+.l-heading
+{
+    color: white;
+}
+#navbar
+{
+    z-index: 1;
+}
+
+.image
+{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width:100%;
+
+}
+.showcase-content
+{
+    height: 100vh;
+    background: url('./showcase.jpg') center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#top
+{
+    color:#5BC236;
+}
