@@ -12,26 +12,40 @@ a{
 .items .item a:hover{
     background:  #5BC236
 }
+
 .container
 {
     display: flex;
-    background: #333;
+    /* background: rgba(51,51,51); */
     height: 60px;
     align-items: center;
     justify-content: space-between;
 }
 .fas
 {
-    display: inline;
+    /* display: inline; */
 }
 
 
-
+.fa-2x
+{
+    background: #5BC236;
+    border-radius: 50%;
+    padding: 20px;
+}
 
 #heading
 {
+    font: 20px;
     margin-left: 30px;
     color: white;
+    margin-bottom: 10px;
+}
+
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .items
 {
@@ -51,32 +65,178 @@ a{
 {
     color: white;
 }
+.item-float
+{
+    text-align: center;
+}
+.itemsec
+{
+    display: flex;
+    margin: 0 40px;
+    align-items: center;
+    width: 200px;
+}
 .l-heading
 {
     color: white;
+    font-size: 60px;
+    text-align: center;
 }
-#navbar
+.navbar
 {
     z-index: 1;
-}
+    position: sticky;
+    top: 0;
+    background: rgb(51,51,51,1);
 
-.image
+}
+.section-container
 {
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    width:100%;
-
+    margin: auto;
 }
+
+#section-heading
+{
+    font-size: 35px;
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+}
+.section-item
+{
+    display: flex;
+    margin: 20px;
+    margin-bottom: 50px;    
+    justify-content: center;
+}
+
 .showcase-content
 {
     height: 100vh;
-    background: url('./showcase.jpg') center center/cover;
+    background: url('./showcase.jpg') center center/cover ;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    
+
 }
-#top
+#showcase-link
+{
+    color: white;
+    padding: 10px;
+    background: #5BC236;
+    border-radius: 5px;
+}
+#showcase-para
+{
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+    font: 1.3;
+    line-height: 1.2rem;
+    padding: 0 20px;
+}
+#green
 {
     color:#5BC236;
 }
+.what
+{
+    min-height: 350px;
+    /* display: flex; */
+    background: lightgray;
+}
+/* who we are */
+.who-container
+{
+    display: flex;
+    width: 100%
+}
+.who-heading
+{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.who-list
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+.who-list h3
+{
+    padding-bottom: 15px;
+}
+.who-people
+{
+    display: inline-block;
+    width: 50%;
+    background: url('./people.jpg') center center/cover;
+    flex: 1;
+}
+.who-text
+{
+    background-color: #333;
+    padding-left: 30px;
+    padding-top: 30px;
+    color: white;
+    padding-bottom: 30px;
+    flex: 1;
+}
+.who-text p
+{
+    padding-bottom: 20px;
+}
+.who-list li
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: dotted rgb(68,68,68) 1px;
+}
+
+/* Clients */
+.client-images
+{
+    justify-content: center;
+}
+.client-heading
+{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.client-images
+{
+    display: flex;
+    max-width: 768px;
+    margin: 0 40px;
+    padding-bottom: 50px;
+    align-items: center;
+    margin: auto;
+    padding: 0 30px;
+    padding-bottom: 20px;
+    justify-content: space-between
+}
+.client-images img
+{
+    height: 10vh;
+    width: 10vh;
+
+}
+
+/* footer */
+footer
+{
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+}
+
+
+
+
+
+
